@@ -1,5 +1,3 @@
-
-
 let vectorA = [1,3];
 let vectorB = [3,10];
 
@@ -10,6 +8,7 @@ let vectorD = [0,0];
 function dot_product(firstVector , secondVector){
 
     let result = 0;
+    
     for(let i=0; i < firstVector.length ; i++){
         result = result + firstVector[i]*secondVector[i];
     }
@@ -23,10 +22,8 @@ function dot_product(firstVector , secondVector){
 
 //list of key values
 let set = new Map([
-    
     [vectorA,vectorB],
     [vectorC,vectorD]
-
 ]);
 
 
